@@ -29,7 +29,7 @@ PORT = os.environ.get("PORT", "5151")
 
 #Database
 DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://Bewafa:aloksingh@cluster0.qsrsu.mongodb.net/?retryWrites=true&w=majority")
-DB_NAME = os.environ.get("DATABASE_NAME", "Bewafa)
+DB_NAME = os.environ.get("DATABASE_NAME", "Bewafa")
 JOIN_REQS_DB = environ.get("JOIN_REQS_DB", DB_URI)
 
 #force sub channel id, if you want enable force sub
