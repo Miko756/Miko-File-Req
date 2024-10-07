@@ -10,7 +10,7 @@ from os import environ
 
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "8134547633:AAF9-qdRg6RvKqJBqQZAn3ZHyDIGcIagAF8")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7662252238:AAGRxXr2EVZZKCnum5DunDBIGFTNKs07Hos")
 
 #Your API ID from my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", "29759992"))
@@ -19,22 +19,22 @@ APP_ID = int(os.environ.get("APP_ID", "29759992"))
 API_HASH = os.environ.get("API_HASH", "61f150cdca64b2916fa499d107393140")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002186827595"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001919223553"))
 
 #OWNER ID
 OWNER_ID = int(os.environ.get("OWNER_ID", "5787502520"))
 
 #Port
-PORT = os.environ.get("PORT", "5151")
+PORT = os.environ.get("PORT", "5251")
 
 #Database
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://Bewafa:aloksingh@cluster0.qsrsu.mongodb.net/?retryWrites=true&w=majority")
-DB_NAME = os.environ.get("DATABASE_NAME", "Bewafa")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://Free:aloksingh@cluster0.tphfi.mongodb.net/?retryWrites=true&w=majority")
+DB_NAME = os.environ.get("DATABASE_NAME", "Free")
 JOIN_REQS_DB = environ.get("JOIN_REQS_DB", DB_URI)
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002260861967"))
-FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1002296712805"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002280973372"))
+FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1002324272831"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "20"))
 
