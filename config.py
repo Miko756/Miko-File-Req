@@ -10,7 +10,7 @@ from os import environ
 
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7662252238:AAGRxXr2EVZZKCnum5DunDBIGFTNKs07Hos")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7482868409:AAFr_X-uEcj1fEGLTA3838KzCAjVUEQkpOY")
 
 #Your API ID from my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", "29759992"))
@@ -22,7 +22,7 @@ API_HASH = os.environ.get("API_HASH", "61f150cdca64b2916fa499d107393140")
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001919223553"))
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "5787502520"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "7512463676"))
 
 #Port
 PORT = os.environ.get("PORT", "5251")
@@ -42,7 +42,7 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "20"))
 START_MSG = os.environ.get("START_MESSAGE", "<b><b>👋👋 Hey {first} ! </b>\n\n<b>I'm a File Store Bot🤖...! </b>\n\nI Can <b>Store Private Files</b> in Specified Channel and other users can access Private Files From a Special Link....!\n\n⚡<b>Powered By - </b>@About_Yae_Miko")
 try:
     ADMINS=[]
-    for x in (os.environ.get("ADMINS", "5787502520 7350721166").split()):
+    for x in (os.environ.get("ADMINS", "7512463676 6768137528 7350721166").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
