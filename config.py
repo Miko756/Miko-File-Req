@@ -10,7 +10,7 @@ from os import environ
 
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7650101915:AAEG4j0AL5Gk5lAE5hVouhDEVnfiqNCDNAQ")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7274361230:AAFYsZ1IFKHbpnpYE6CZODQCz3gmEy1Le0U")
 
 #Your API ID from my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", "29759992"))
@@ -22,7 +22,7 @@ API_HASH = os.environ.get("API_HASH", "61f150cdca64b2916fa499d107393140")
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002280990808"))
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "5787502520"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "7512463676"))
 
 #Port
 PORT = os.environ.get("PORT", "5252")
